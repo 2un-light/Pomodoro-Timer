@@ -27,8 +27,9 @@ Flutter로 개발된 심플한 포모도로 타이머 앱입니다. 집중 시�
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
 
-### Design
+### Design & Animation
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+![FlipaClip](https://img.shields.io/badge/FlipaClip-FF5722?style=for-the-badge&logoColor=white)
 
 <br><br>
 
