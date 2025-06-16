@@ -7,7 +7,14 @@ Flutter로 개발된 심플한 포모도로 타이머 앱입니다. 집중 시�
 ### 개발 기간 & 인원
 인원 : 1명
 
-개발 기간 : 25.03.18 ~ 25.05.13                                         
+개발 기간 : 25.03.18 ~ 25.05.13          
+
+<br><br>
+
+## 📥 다운로드
+🚀 **[Google Play Store 바로가기](https://play.google.com/store/apps/details?id=com.pomodoro_timer)**  
+여기서 앱을 설치하고 사용해 보세요!
+
 
 
 <br><br>
@@ -56,9 +63,3 @@ Flutter로 개발된 심플한 포모도로 타이머 앱입니다. 집중 시�
 flutter pub get
 flutter run
 ```
-
-<br><br>
-
-## 📥 다운로드
-🚀 **[Google Play Store 바로가기](https://play.google.com/store/apps/details?id=com.pomodoro_timer)**  
-여기서 앱을 설치하고 사용해 보세요!
