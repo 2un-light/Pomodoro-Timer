@@ -18,13 +18,13 @@
 
 ## 📸 Preview
 <div style="display: flex; justify-content: space-around; align-items: center;">
-  <img src="https://github.com/user-attachments/assets/f7c395db-3073-4811-b50f-6342c87891ec" width="300" alt="스크린샷 1">
-  <img src="https://github.com/user-attachments/assets/fc0ca3ad-f313-42e3-8a2c-967e6ff2b5b9" width="300" alt="스크린샷 2">
-  <img src="https://github.com/user-attachments/assets/3f465494-0e86-4a14-9c3a-89396300b393" width="300" alt="스크린샷 3">
+  <img src="https://github.com/user-attachments/assets/f7c395db-3073-4811-b50f-6342c87891ec" width="250" alt="스크린샷 1">
+  <img src="https://github.com/user-attachments/assets/fc0ca3ad-f313-42e3-8a2c-967e6ff2b5b9" width="250" alt="스크린샷 2">
+  <img src="https://github.com/user-attachments/assets/3f465494-0e86-4a14-9c3a-89396300b393" width="250" alt="스크린샷 3">
 </div>
 <div style="display: flex; justify-content: space-around; align-items: center;">
-  <img src="https://github.com/user-attachments/assets/a5edeaad-d9e4-4cf2-9150-748ffd073be6" width="500" alt="스크린샷 4">
-  <img src="https://github.com/user-attachments/assets/078dd25f-66b0-4dde-8342-4a48cd760dd9" width="500" alt="스크린샷 5">
+  <img src="https://github.com/user-attachments/assets/a5edeaad-d9e4-4cf2-9150-748ffd073be6" width="400" alt="스크린샷 4">
+  <img src="https://github.com/user-attachments/assets/078dd25f-66b0-4dde-8342-4a48cd760dd9" width="400" alt="스크린샷 5">
 </div>
 
 <br><br>
