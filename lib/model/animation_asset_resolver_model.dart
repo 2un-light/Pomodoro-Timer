@@ -6,6 +6,6 @@ class AnimationAssetResolver {
   }){
     final pathPrefix = 'assets/videos';
     final theme = ['white', 'dark'].contains(themeName) ? themeName : 'cream';
-    return '$pathPrefix/${sessionType}_time_$theme.mp4';
+    return '$pathPrefix/${sessionType}_time_${theme}_h264.mp4';
   }
 }

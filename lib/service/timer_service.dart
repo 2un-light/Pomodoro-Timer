@@ -188,6 +188,7 @@ class TimerService extends ChangeNotifier {
     notifyListeners();
   }
 
+  ///타이머 시간을 설정합니다
   void setDurations({required int focusTimeInMinutes, required int shortBreakTimeInMinutes, required int longBreakTimeInMinutes}) {
     focusSeconds = focusTimeInMinutes * 60;
     shortBreakSeconds = shortBreakTimeInMinutes * 60;
