@@ -120,7 +120,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
 
     //시간 설정 관련
     final double timeCardWidth = (screenWidth * 0.28).clamp(80, 250);
-    final double timerCardHeight = (screenWidth * 0.32).clamp(110, 190);
+    final double timerCardHeight = (screenWidth * 0.34).clamp(110, 190);
     final double timeCardFontSize = (screenHeight * 0.065).clamp(50, 80);
 
     //테마 설정 관련
