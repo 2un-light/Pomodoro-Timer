@@ -21,10 +21,14 @@ class PortraitNavbar extends StatelessWidget {
 
     final screen = targetPage == NavBarPage.home ? HomeScreen() : SettingsScreen();
 
-    Navigator.pushReplacement(
+    if(targetPage == NavBarPage.settings) {
+      Navigator.push(
         context,
-        MaterialPageRoute(builder: (_) => screen),
-    );
+        MaterialPageRoute(builder: (_) => const SettingsScreen()),
+      );
+    }else {
+      Navigator.pop(context);
+    }
   }
 
   @override

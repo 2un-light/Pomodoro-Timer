@@ -24,10 +24,14 @@ class LandscapeNavBar extends StatelessWidget {
 
     final screen = targetPage == NavBarPage.home ? HomeScreen() : SettingsScreen();
 
-    Navigator.pushReplacement(
-      context,
-      MaterialPageRoute(builder: (_) => screen),
-    );
+    if(targetPage == NavBarPage.settings) {
+      Navigator.push(
+        context,
+        MaterialPageRoute(builder: (_) => const SettingsScreen()),
+      );
+    }else {
+      Navigator.pop(context);
+    }
   }
 
 
