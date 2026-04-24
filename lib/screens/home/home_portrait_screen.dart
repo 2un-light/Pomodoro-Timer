@@ -84,10 +84,10 @@ class _HomePortraitScreenState extends State<HomePortraitScreen> {
                 ),
                 SizedBox(height: spacingAfterTimer),
                 timerService.isFocusTime
-                    ? WorkingTimeAnimation(width: videoWidthSize, height: videoHeightSize, isRunning: timerService.isTimerRunning, themeName: selectedTheme.name,)
+                    ? WorkingTimeAnimation(key: ValueKey(selectedTheme.name), width: videoWidthSize, height: videoHeightSize, isRunning: timerService.isTimerRunning, themeName: selectedTheme.name,)
                     : (timerService.isShortBreakTime
-                    ? ShortBreakTimeAnimation(width: videoWidthSize, height: videoHeightSize, isRunning: timerService.isTimerRunning, themeName: selectedTheme.name)
-                    : LongBreakTimeAnimation(width: videoWidthSize, height: videoHeightSize, isRunning: timerService.isTimerRunning, themeName: selectedTheme.name)),
+                    ? ShortBreakTimeAnimation(key: ValueKey(selectedTheme.name), width: videoWidthSize, height: videoHeightSize, isRunning: timerService.isTimerRunning, themeName: selectedTheme.name)
+                    : LongBreakTimeAnimation(key: ValueKey(selectedTheme.name), width: videoWidthSize, height: videoHeightSize, isRunning: timerService.isTimerRunning, themeName: selectedTheme.name)),
                 SizedBox(height: spacingAfterImage),
                 timerControlButtons(context, timerButtonIconSize),
               ],
